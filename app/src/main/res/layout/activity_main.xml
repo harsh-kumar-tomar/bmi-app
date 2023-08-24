@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/linearMain">
+
+    <EditText
+        android:id="@+id/edit_weight"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="#FAF5F5"
+        android:hint="@string/hint_wt"
+        android:inputType="number" />
+
+<!--    <EditText-->
+<!--        android:id="@+id/edit_height_ft"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:ems="10"-->
+<!--        android:hint="@string/hint_ht_ft"-->
+<!--        android:inputType="number" />-->
+
+    <EditText
+        android:id="@+id/edit_height_cm"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_ht_cm"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#6F1BA3"
+        android:baselineAligned="false"
+        android:paddingTop="5dp"
+        android:text="calculate" />
+
+    <TextView
+        android:id="@+id/edit_result"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text=""
+
+        android:textSize="25dp" />
+
+
+</LinearLayout>

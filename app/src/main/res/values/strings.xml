@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BMI CALC</string>
+    <string name="hint_wt">Weight</string>
+    <string name="hint_ht_ft">Height(ft)</string>
+    <string name="hint_ht_cm">Height(cm)</string>
+
+</resources>
